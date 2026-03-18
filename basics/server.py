@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route('/hello')
 def print_hello():
-    return "This is basic flask application..!"
+    return "This is a flask application"
     
 app.run(debug=True)
